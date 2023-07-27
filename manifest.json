@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"name": "Initialize Firebase",
+	"version": "1.0",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"sandbox": {
+		"pages": ["sandbox.html"]
+	},
+	"content_security_policy": {
+		"sandbox": "sandbox allow-scripts; script-src 'self' https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com"
+	}
+}
